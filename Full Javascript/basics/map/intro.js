@@ -7,3 +7,10 @@ map.get(key) - returns true if the key exists, false otherwise
 map.delete(key) - removes the element by the key, returns true if the key existed at the moment of the call, otherwise false.
 map.size - returns the current element count
 */  
+
+let data = new Map()
+data.set("name", "ayush")
+data.set("id", 1)
+for(let items of data){
+    console.log(items)
+}
