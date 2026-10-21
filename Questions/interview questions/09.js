@@ -18,3 +18,5 @@ function createExample(arg1, arg2){
 }
 
 createExample(...a)
+
+//Interview tip: Practice the above examples mentionned and showcase them in interviews to make interviewer think that you are a practical person
