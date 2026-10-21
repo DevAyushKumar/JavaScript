@@ -12,4 +12,9 @@ console.log(z)
 let a = [...x]
 console.log(a)
 
-//
+//Passing array of values as individual arguments to function 
+function createExample(arg1, arg2){
+    console.log(arg1, arg2)
+}
+
+createExample(...a)
