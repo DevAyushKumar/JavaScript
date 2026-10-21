@@ -7,3 +7,9 @@ let y = [3,4]
 
 let z = [...x, ...y]
 console.log(z)
+
+//copying arrays or strings
+let a = [...x]
+console.log(a)
+
+//
